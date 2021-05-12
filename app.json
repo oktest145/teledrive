@@ -1,29 +1,33 @@
 {
   "name": "GDrive-Uploader-Bot",
-  "description": "Telegram/Direct Links to GDrive Uploader Bot",
-  "repository": "https://github.com/viperadnan-git/google-drive-telegram-bot",
+  "description": "Telegram Bot",
+  "repository": "https://github.com/oktest145/teledrive",
   "logo": "https://telegra.ph/file/8669281aa2360613f7511.jpg",
-  "keywords": ["Telegram", "Google Drive", "uploader"],
+  "keywords": ["Telegram","Bot"],
   "env": {
     "ENV": {
       "description": "Set it to anything to enable configuration by environment variables.",
       "value": "ANYTHING"
     },
     "BOT_TOKEN": {
-      "description": "Get it from @BotFather"
+      "description": "Get it from @BotFather",
+      "value": ""
     },
     "APP_ID": {
-      "description": "Your API_ID, Get it from https://my.telegram.org/apps"
+      "description": "Your API_ID, Get it from https://my.telegram.org/apps",
+      "value": ""
     },
     "API_HASH": {
-      "description": "Your API_HASH, Get it from https://my.telegram.org/apps"
+      "description": "Your API_HASH, Get it from https://my.telegram.org/apps",
+      "value": ""
     },
     "SUDO_USERS": {
       "description": "List of sudo users ids, seperated by space.",
-      "value": "999197022 939425014"
+      "value": ""
     },
     "SUPPORT_CHAT_LINK": {
-      "description": "Support Chat link in valid url format."
+      "description": "Support Chat link in valid url format.",
+      "value": ""
     },
     "DOWNLOAD_DIRECTORY": {
       "description": "Custom path for downloads. Must end with a forward slash.",
